@@ -107,7 +107,7 @@ nav .menu_hamburguesa .header{
 nav .menu_hamburguesa .header .boton button{
     border: none;
     padding: 20px 20px;
-    background-color: black;
+    background-color: transparent;
     color: white;
     cursor: pointer;
 }
