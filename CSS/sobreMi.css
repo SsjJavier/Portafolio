@@ -1,0 +1,31 @@
+.sobreMi_container{
+    width: 100%;
+    display: flex;
+}
+
+
+.sobreMi_texto h2{
+    text-transform: uppercase;
+    font-size: 20pt;
+    margin: 10px 40px;
+    line-height: 1;
+    color: rgb(120, 35, 199);
+}
+
+.sobreMi_texto p{
+    font-size: 14pt;
+    margin: 20px 40px;
+    line-height: 1.5;
+    color: white;
+}
+
+.sobreMi_imagen{
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+
+.img_astronauta{
+    box-sizing: border-box;
+    display: none;
+}
