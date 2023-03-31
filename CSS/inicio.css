@@ -1,9 +1,7 @@
 .inicio{
-    padding-top: 100px;
     width: 100%;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 18px);
     display: flex;
-    margin-bottom: 10px;
     justify-content: center;
     color: white;
     font-weight: 200;

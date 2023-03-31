@@ -87,6 +87,7 @@
 
 
 nav .menu_hamburguesa{
+    padding: 0;
     position: fixed;
     display: none;
     justify-content: center;
@@ -96,10 +97,10 @@ nav .menu_hamburguesa{
 }
 
 nav .menu_hamburguesa .header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
     padding-right: 10px;
 }
 
