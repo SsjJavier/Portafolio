@@ -1,0 +1,28 @@
+.hobbiesContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hobbiesContainer h2{
+    text-transform: uppercase;
+    font-size: 20pt;
+    margin: 20px 40px;
+    line-height: 1;
+    color: rgb(120, 35, 199);
+}
+
+.cardHobbies{
+    border: solid 3px  rgb(120, 35, 199) ;
+    border-radius: 40px;
+    margin: 10px 40px;
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.cardHobbiesDesc h3{
+    text-transform: uppercase;
+}
