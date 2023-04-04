@@ -1,6 +1,6 @@
 .inicio{
     width: 100%;
-    height: calc(100vh - 18px);
+    height: 100vh;
     display: flex;
     justify-content: center;
     color: white;
