@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="CSS/skills.css">
     <link rel="stylesheet" href="CSS/hobbies.css">
     <link rel="stylesheet" href="CSS/estudios.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -58,7 +61,7 @@
         </nav>
     </header>
     <section class="inicio" id="inicio">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
             <div class="inicio_imagen">
                 <img src="imagenes/perfil.jpg" alt="" class="inicio_imagen_perfil">
             </div>
@@ -108,10 +111,13 @@
                     </li>
                 </ul>
             </div>
+            <div class="inicio_cv">
+                <p>Descargar CV</p>
+            </div>
         </div>
     </section>
     <section id="sobreMi">
-        <div class="sobreMi_container">
+        <div class="sobreMi_container" data-aos="fade-right" data-aos-duration="2000">
             <div class="sobreMi_texto">
                 <h2>Sobre Mi</h2>
                 <p>Tengo 25 años, actualmente resido en Guatemala.
@@ -128,7 +134,7 @@
         </div>
     </section>
     <section id="skills">
-        <div class="skills_container">
+        <div class="skills_container" data-aos="fade-up" data-aos-duration="2000">
             <div class="skills_texto">
                 <h2>Skills</h2>
             </div>
@@ -199,9 +205,9 @@
         </div>
     </section>
     <section id="hobbies">
-        <div class="hobbiesContainer">
+        <div class="hobbiesContainer" >
             <h2>Hobbies</h2>
-            <div class="cardHobbies">
+            <div class="cardHobbies" data-aos="flip-left" data-aos-duration="2000">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-soccer-field" width="88"
                     height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7823c7" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -217,7 +223,7 @@
                     <p>Me apasiona jugar futbol con mis amigos para divertirnos</p>
                 </div>
             </div>
-            <div class="cardHobbies">
+            <div class="cardHobbies" data-aos="flip-left" data-aos-duration="2000">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-jump-rope" width="88"
                     height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7823c7" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -232,7 +238,7 @@
                         superar mis limites</p>
                 </div>
             </div>
-            <div class="cardHobbies">
+            <div class="cardHobbies" data-aos="flip-left" data-aos-duration="2000">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="88" height="88"
                     viewBox="0 0 24 24" stroke-width="1.5" stroke="#7823c7" fill="none" stroke-linecap="round"
                     stroke-linejoin="round">
@@ -251,47 +257,51 @@
     </section>
     <section id="estudios">
         <h2>Estudios</h2>
-        <div class="containerEstudios">
+        <div class="containerEstudios"  data-aos="zoom-in" data-aos-duration="2000">
             <div class="cardEstudios">
                 <img src="imagenes/univ.jpg" alt="" class="cardEstudios_img">
                 <h3 class="cardEstudios_titulo">
                     Universidad mariago Galvez de Guatemala
                 </h3>
                 <p class="cardEstudios_parrafo">
-                    Actualmente me ecuentro cursando el 5to semestre de la carrera de ingenieria en sistemas en la universidad mariano galvez de guatemala
+                    Actualmente me ecuentro cursando el 5to semestre de la carrera de ingenieria en sistemas en la
+                    universidad mariano galvez de guatemala
                 </p>
             </div>
         </div>
-        <div class="containerEstudios">
+        <div class="containerEstudios" data-aos="zoom-in" data-aos-duration="2000">
             <div class="cardEstudios">
                 <img src="imagenes/one.jpg" alt="" class="cardEstudios_img">
                 <h3 class="cardEstudios_titulo">
                     One Oracle Next Education
                 </h3>
                 <p class="cardEstudios_parrafo">
-                    Soy parte del grupo numero 4 del curso proporcionado por oracle, donde me estoy especializando en desarrolador FrontEnd.
+                    Soy parte del grupo numero 4 del curso proporcionado por oracle, donde me estoy especializando en
+                    desarrolador FrontEnd.
                 </p>
             </div>
         </div>
-        <div class="containerEstudios">
+        <div class="containerEstudios" data-aos="zoom-in" data-aos-duration="2000">
             <div class="cardEstudios">
                 <img src="imagenes/freecode.jpg" alt="" class="cardEstudios_img">
                 <h3 class="cardEstudios_titulo">
                     FreeCodeCamp
                 </h3>
                 <p class="cardEstudios_parrafo">
-                    Cuento con certificados en la plataforma de FreeCodeCamp como desarrolador web los que me han ayudado a seguir puliendo mi educacion.
+                    Cuento con certificados en la plataforma de FreeCodeCamp como desarrolador web los que me han
+                    ayudado a seguir puliendo mi educacion.
                 </p>
             </div>
         </div>
-        <div class="containerEstudios">
+        <div class="containerEstudios" data-aos="zoom-in" data-aos-duration="2000">
             <div class="cardEstudios">
                 <img src="imagenes/udemy.jpg" alt="" class="cardEstudios_img">
                 <h3 class="cardEstudios_titulo">
                     Udemy
                 </h3>
                 <p class="cardEstudios_parrafo">
-                    Cuento con certificados en la plataforma de Udemy de HTML, CSS y javascript con los cuales he reforzado mis conocimientos.
+                    Cuento con certificados en la plataforma de Udemy de HTML, CSS y javascript con los cuales he
+                    reforzado mis conocimientos.
                 </p>
             </div>
         </div>
@@ -309,6 +319,9 @@
             Bmore.classList.toggle('sencillo')
         })
 
+    </script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
