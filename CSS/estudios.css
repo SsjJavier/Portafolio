@@ -21,7 +21,7 @@
     align-items: center;
     border: solid 4px  rgb(120, 35, 199);    
     transition: all 0.5s;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .cardEstudios:hover{
